@@ -12,3 +12,59 @@ img,
 video {
   display: block;
 }
+
+.divbase {
+  background-color: #eae2b7;
+}
+
+.block {
+  background-color: #f77f00;
+  border: 1px solid #d62828;
+  font-size: 60px;
+  color: #fff;
+  font-family: Heebo;
+  padding: 35px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.div {
+  display: flex;
+  padding: 30px 0;
+}
+.div .block {
+  width: 100%;
+}
+.div1 {
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.div2 {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-around;
+}
+.div3 {
+  display: flex;
+  padding: 30px;
+  height: 450px;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 30px;
+}
+.div4 {
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div4 .block {
+  width: 50%;
+}
